@@ -18,16 +18,20 @@ Dependencies listed in requirements.txt
 
 Installation
 
-unzip the provided Recommendation Agent.zip file
+1. **Clone the repository:**
 
-Create a virtual environment:python -m venv venv
+git clone https://github.com/janpashashaik123/Recommendation-Agent.git
+cd Recommendation Agent
+
+2. **Create a virtual environment:**
+python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
+3. **Install dependencies:**
+pip install -r requirements.txt
 
-Install dependencies:pip install -r requirements.txt
-
-
-Set OpenAI API key:export OPENAI_API_KEY='your-api-key'  # On Windows: set OPENAI_API_KEY=your-api-key
+4. **Set OpenAI API key:**
+export OPENAI_API_KEY='your-api-key'  # On Windows: set OPENAI_API_KEY=your-api-key
 
 
 
